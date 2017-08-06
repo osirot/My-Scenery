@@ -1,0 +1,39 @@
+Olga Sirotinsky
+Assignment: My Scene (Standard) written report
+
+- SetLocation "works to expectations" for MyHouse and MyTree with no 
+additional coding because the underlying component sizes are set for each
+object. Because MyTree and MyHouse have "is-a" relationships with
+NscComponent we are moving the object with the inherited location method. 
+- setSize does not "work to expectations" because the setSize is changing
+the size of the underlying component that is holding the graphic object not
+the graphic object inside the component.
+- for change3 to work the MyTree and MyHouse would have to update not only 
+the size of the component but also the dimensions of the graphics themselves. 
+ex: MyTree would have to update the size of the rectangle used for the trunk as well 
+as the triangle used for the leaves. After those are updated the component is changed to fit 
+those dimensions.
+
+
+REPORT
+- I approached this assignment first by doing the minimal version. This allowed me to 
+test the Myhouse first and use that program as a sample for MyTree. 
+
+- The design decision made was to use fields instead of locals it made it easier
+to update within each method. No return values were used. Parameters were used
+for each method in order to call them in myScene main method.  
+
+- This project didn't give me any grief. The setSize method 
+in change3 is trickier than it sounds. There has to be an 
+inherited method from component that might give a short cut. I understand what
+need to be done but the execution of it seems harder than it should be. 
+
+- The only problems that I encountered were to making sure I read the entire
+assignment before moving too far ahead. Sometimes I read a portion of it and
+start the project and go back to find I did the wrong portion. For example I 
+was moving the houses instead of the tree locations at first. 
+
+- In this assignment I gained a bit more experience with working with 
+objects. Using graphics in learning inheritance and OOP makes sense to me. 
+
+ 
